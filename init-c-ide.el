@@ -1,7 +1,7 @@
 (require-package 'use-package)
 (setq use-package-always-ensure t)
 
-(add-to-list 'load-path "d:/32.emacs/emacs-c-ide-demo/custom")
+(add-to-list 'load-path "~/emacs-c-ide-demo/custom")
 
 (require 'setup-general)
 (if (version< emacs-version "24.4")
